@@ -1,0 +1,12 @@
+
+
+streamlit
+requests
+python-dotenv
+pandas
+duckdb
+openai
+langchain
+langchain-community
+fastapi
+uvicorn
