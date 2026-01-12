@@ -71,6 +71,25 @@ Business Insights
 
 ```
 .
+├── api/
+│   └── main.py          # FastAPI backend (API entry point)
+│
+├── src/
+│   ├── agent.py         # Agent logic (LLM + reasoning)
+│   ├── tools.py         # EDA tools (statistics, profiling)
+│   └── config.py        # Environment & API key loading
+│
+├── ui/
+│   └── app.py           # Streamlit frontend
+│
+├── .env                 # Environment variables (OpenAI key)
+├── requirements.txt     # Python dependencies
+├── README.md            # Project documentation
+├── swap.ipynb           # Experimentation / prototyping notebook
+└── .gitignore
+```
+
+.
 ├── app.py              # Streamlit frontend
 ├── main.py             # FastAPI entry point
 ├── agent.py            # Agent logic (LLM + EDA)
@@ -80,18 +99,18 @@ Business Insights
 ├── .env                # API keys (not committed)
 ├── swap.ipynb          # Experimentation notebook
 └── README.md
-```
+
+````
 
 ---
 
 ## 6. Environment Setup
 
 ### 6.1 Clone Repository
-
 ```bash
 git clone <your-repo-url>
 cd agentic-ai-eda
-```
+````
 
 ### 6.2 Create Virtual Environment
 
@@ -249,7 +268,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ---
 
-## 15. Resume / Portfolio Bullet
+## 15. Bullet
 
 > Built an **Agentic AI Data Analysis Assistant** using **LLMs + LangChain** that automates EDA and generates business insights, reducing manual analysis effort by ~50%.
 
@@ -257,5 +276,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ## 16. Author
 
-**Developed by:** Data Scientist / ML Engineer
+**Developed by:
+## Swapnil Iwarkar
+** Data Scientist / ML Engineer
 
