@@ -277,6 +277,6 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 ## 16. Author
 
 **Developed by:
-## Swapnil Iwarkar
+** Swapnil Iwarkar
 ** Data Scientist / ML Engineer
 
